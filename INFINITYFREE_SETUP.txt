@@ -1,0 +1,12 @@
+INFINITYFREE DEPLOYMENT
+
+1. Upload the contents of this gym-system folder to the domain document root (the folder serving https://gym-system.great-site.net/).
+2. Keep assets/css/style.css and assets/css/public.css at assets/css/.
+3. Open config/db.php and replace PUT_YOUR_INFINITYFREE_MYSQL_PASSWORD_HERE with your InfinityFree MySQL password.
+4. Database values already configured:
+   Host: sql201.infinityfree.com
+   Database: if0_42536478_gym_system
+   User: if0_42536478
+   Port: 3306
+5. BASE_URL is set to / because this domain serves the gym-system project at the web root.
+6. The settings query uses system_settings (the table in the project SQL), not settings.

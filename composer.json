@@ -1,0 +1,9 @@
+{
+    "name": "forge-athletic/gym-system",
+    "description": "Gym Management System — Reports export dependencies",
+    "require": {
+        "php": ">=7.4",
+        "phpoffice/phpspreadsheet": "^1.29",
+        "dompdf/dompdf": "^2.0"
+    }
+}
